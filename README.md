@@ -1,4 +1,4 @@
-# JupyterHub Simple Spawner #
+# JupyterHub Auto Spawner
 
 A very simple [Spawner](https://github.com/jupyter/jupyterhub/wiki/Spawners) for
 [JupyterHub](https://github.com/jupyter/jupyterhub) that spawns local processes.
@@ -29,7 +29,7 @@ You can set JupyterHub to use this spawner with the following line in your
 `jupyter_config.py`:
 
 ```
-c.JupyterHub.spawner_class = 'simplespawner.SimpleLocalProcessSpawner'
+c.JupyterHub.spawner_class = 'autouserspawner.AutoUserLocalProcessSpawner'
 ```
 
 ## Configuration ##
